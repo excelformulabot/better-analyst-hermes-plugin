@@ -1,0 +1,20 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "better-analyst": {
+      "type": "stdio",
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-remote@0.15.2",
+        "https://app.betteranalyst.com/api/mcp/connector",
+        "--transport",
+        "http-only",
+        "--auth-timeout",
+        "55",
+        "--static-oauth-client-metadata",
+        "{\"client_name\":\"Hermes Agent (Better Analyst)\"}"
+      ]
+    }
+  }
+}

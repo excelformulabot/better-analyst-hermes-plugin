@@ -1,0 +1,24 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "better-analyst",
+  "version": "1.0.0",
+  "description": "Convert PDFs such as bank statements, invoices, receipts and reports into clean Excel workbooks with Better Analyst AI Extract.",
+  "author": {
+    "name": "Better Analyst",
+    "email": "hello@betteranalyst.com",
+    "url": "https://betteranalyst.com"
+  },
+  "homepage": "https://betteranalyst.com/pdf-to-excel-ai",
+  "repository": "https://github.com/excelformulabot/better-analyst-hermes-plugin",
+  "license": "MIT",
+  "keywords": ["pdf", "excel", "xlsx", "bank-statement", "invoice", "table-extraction", "mcp"],
+  "extensions": {
+    "com.nousresearch.hermes": {
+      "servers": {
+        "better-analyst": {
+          "trust": "untrusted"
+        }
+      }
+    }
+  }
+}
