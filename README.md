@@ -25,7 +25,7 @@ hermes plugins install better-analyst
 hermes plugins enable better-analyst
 ```
 
-Start a new session. The first time the server starts, your browser opens the Better Analyst sign-in page. Sign in and approve. The token is kept for later sessions, so you only do this once. Sign-in needs a browser, so this plugin doesn't suit a headless machine.
+Start a new session. The first time the server starts, your browser opens the Better Analyst sign-in page. Sign in and approve. You have about 55 seconds. If you miss it and the tools don't appear, start another session to get a fresh sign-in page. The token is kept for later sessions, so you only do this once. Sign-in needs a browser, so this plugin doesn't suit a headless machine.
 
 ## Try it
 
